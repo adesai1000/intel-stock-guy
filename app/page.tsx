@@ -46,8 +46,9 @@ export default function Home() {
 
   return (
     <>
-      <main className="flex flex-col min-h-screen items-center p-8 md:p-18 bg-black text-black">
-        <h1 className="text-3xl md:text-5xl font-bold mb-5 text-white">Intel Stock Guy</h1>
+      <main className="flex flex-col min-h-screen items-center p-6 md:p-18 bg-black text-black">
+        <h1 className="text-3xl md:text-5xl font-bold mb-1 text-white">Intel Stock Guy</h1>
+        <p className="text-white underline mb-2"><a href="https://www.reddit.com/r/wallstreetbets/comments/1ehjuzj/i_bought_700k_worth_of_intel_stock_today/" target="_blank">Context</a></p>
         <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6 md:p-10 relative">
           <button
             className="text-5xl md:text-5xl text-black absolute top-2 right-2 p-5 font-bold hover:animate-spin"
